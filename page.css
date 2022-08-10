@@ -1,0 +1,135 @@
+.text{
+   padding: 8px; 
+   margin: 8px;
+   text-align: justify;
+   letter-spacing: 3px;
+   
+    
+}
+.ana{
+    
+    padding : 8px;
+    margin: 8px;
+}
+h1{
+    text-align: center;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+input[type= text]{
+    width: 26%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+input[type= number]{
+    width: 26%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+h3{
+    text-align: justify;
+    letter-spacing: 3px;
+}
+hr{
+    width: 30%
+}
+.downloadButton{
+    text-align: center;
+    border: none;
+    padding: 15px 32px;
+   
+
+
+}
+ul{
+    text-align: justify;
+    letter-spacing: 3px;
+}
+ol{
+    text-align: justify;
+    letter-spacing: 3px;
+}
+textarea{
+    text-align: justify;
+    letter-spacing: 3px;
+    
+}
+.dbutton{
+    text-align: center;
+    border: none;
+    padding: 15px 32px;
+    border-radius: 8px;
+    background-color: 	#DCDCDC;
+    font-weight: 500;
+    line-height: 1.4;
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+    
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.dbutton:hover{
+   
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+input[type="date"]{
+    background-color: #DCDCDC;
+    padding:10px;
+    position: absolute;
+    font-family: "Roboto Mono"monospace;
+    color:	#101010;
+    font-size: 18px;
+    font-family: "Roboto Mono"monospace;
+    
+    
+    outline: none;
+    border-radius: 6px;
+    border: none;
+
+
+}
+::-webkit-calendar-picker-indicator{
+    
+    padding: 109px;
+    position: absolute;
+    cursor: pointer;
+
+  
+}
+label{
+    padding: 15px 32px;
+    
+}
+textarea{
+    background-color: 	#DCDCDC;
+    
+    border-radius: 10px;
+    padding: 1em;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 16PX;
+    line-height: 1.4;
+    border: 2px solid transparent;
+
+}
+::-webkit-scrollbar-track{
+    width: 20px;
+    background-color: #dddddd;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #DCDCDC;
+    border-radius: 10px;
+}

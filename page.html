@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "page.css">
+    <title>contract page</title>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://parall.ax/parallax/js/jspdf.js"></script>
+</head>
+
+
+
+<body>  
+
+    <div id = "page1">
+        <div id ="firstdiv" class ="text">
+
+            <h1>Contract Agreement </h1>
+
+        </div>
+        <form>
+        <div id = seconddiv class = "ana">
+            <h3>Fixed Term Agreement between</h3> 
+            <h3>BMF Attorneys</h3>
+            <h3>With Company registration number 2022/123456/07</h3>
+
+
+
+            <h3>and</h3> 
+            
+        </div>
+
+
+        
+    <input type="text" id = "clientname" required placeholder="Company Name">
+
+            
+            <!--the beggining of page 2 -->    
+        
+        </div>
+        <div id="thirddiv">
+            <div id = "page2.1">
+            <ol>
+                <li><b>Payment terms:</b> </li>
+                <ul>
+                </div>
+
+                    <li>BMF attorney's fee wille be: <input required type="number" id = "clientcost"  placeholder="Cost">  </li>
+
+
+                <div id = "page2.2">  
+                    <li> The retainer amount can be paid upfront, or month-to-month and the payments can be made as follows:</li>
+                    <ul>
+                        <li>upfront:</li>
+                            <ul>
+                                <li>three-twelfths of the fee during probation period in 3 equal installments by the 7th day each month</li>
+                                <li>nine-twelfths of the fee upon conclusion of the probation period of employment</li>
+
+                            </ul>
+                        <li>month-to-month:</li>
+                            <ul>
+                                <li>this fee shall be payed by the 7th day of each month </li>
+                            </ul>
+                    </ul>
+
+                    <li>No variation or amendmentto this agreement shall be of any effect unless such amendment is put in writing and signed by all parties </li>
+                    <li> any documentationn prepared by BMF Attorneys remains its property</li>
+                </ul>
+                <br>
+                            <br>
+                            <br>
+                            <br>
+                          
+
+
+                        </div>
+
+                        <div id = "page3.1">
+                <li><b>Appointment</b> </li>
+                <ol  >
+                    <li>The Client has procured the services of BMF Attorneys and hereby accepts the appointment as an independent contractor of the Client for a fixed period of time. 
+                    </li>
+                    <br>
+                    <br>
+                            <br>
+                            <br>
+                            <br>
+                    <li><b>The reason for this fixed-term contract is for the appointment and completion of the:</b></li>
+                    <div class = "descriptionss">
+
+                    </div>
+
+
+                     <textarea required id = "inover" name = "name" rows = "8" cols = "80" placeholder ="service description"></textarea>
+                
+                    </div>
+
+
+                </ol>
+                    <div id = "page3.2">
+
+                <li> <b>Duration:
+                    <br>
+                </div>
+                    <div class = "dates">
+
+                        <label id = "stDate">Start Date: </label> <input required type = "date" id = "stdate" value = ""  required> <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        <label id = "enDate"> End Date: </label> <input required type = "date" id = "endate" value = ""  required> <br> 
+                    </div>
+
+                </b></li>
+
+
+                <br>
+                <br>
+                <br>
+               
+
+
+            </ol>
+
+        </div>
+
+    
+        
+        <div class = "downloadButton">
+            <button disabled id="contract-download" class ="button dbutton" onclick = "generate_pdf()">Download Contract</button>
+
+        </div>
+
+        <div >
+
+            
+        </div>
+    </form>
+
+        
+    
+</body>
+<script src = "page.js"> </script>
+</html>
