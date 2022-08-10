@@ -44,6 +44,9 @@ function generate_pdf(){
     doc.fromHTML(document.getElementById('page1'));
     doc.text(2,70,cname);
 
+    $("#saying1").removeAttr('hidden');
+    doc.fromHTML(document.getElementById('saying1'),50,80);
+    $("#saying1").attr('hidden','true');
     doc.addPage();
     doc.fromHTML(document.getElementById('page2.1'));
     doc.text(2,20,"Service cost: R"+costs +".00");
@@ -72,5 +75,5 @@ function generate_pdf(){
 
     
 
-    doc.save('tryl.pdf');
+    doc.save('clientcontract.pdf');
 }
